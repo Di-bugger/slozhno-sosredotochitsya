@@ -1,15 +1,29 @@
-:root.theme-light {
-    /* Переменные светлой темы */
-    --bg-color: rgba(255, 241, 247, 1);
-    --main-color: rgba(53, 52, 48, 1);
-}
+.page.theme-light {
+    --text-color: rgb(53, 52, 48);
+    --main-color: rgba(53, 52, 48);
+    --accent-color: rgba(255, 141, 203);
+    --color-transparent: rgba(53, 52, 48, 0.4);
+    --title-color: rgba(255, 194, 230);
 
-/* Остальные стили */
+    --bg-image: url(../images/cover-image-light.png);
+}
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg-color: rgba(255, 241, 247, 1);
-        --main-color: rgba(53, 52, 48, 1);
+        --text-color: rgb(53, 52, 48);
+        --main-color: rgba(53, 52, 48);
+        --accent-color: rgba(255, 141, 203);
+        --color-transparent: rgba(53, 52, 48, 0.4);
+        --title-color: rgba(255, 194, 230);
+
+        --bg-image: url(../images/cover-image-light.png);
     }
 }
+
+.theme-light .header__theme-menu-button {
+    color: var(--text-color);
+}
+
+
+
 

@@ -2,8 +2,8 @@
 
 .page {
   padding: 0 10px 10px 10px;
-  background: var(--bg-color);
-  background-image: url(../images/cover-image-dark.png);
+  background: var(--text-color);
+  background-image: var(--bg-image);
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,7 +68,7 @@
   align-self: center;
   white-space: pre-line;
   font-family: 'IBM Plex mono', monospace;
-  color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .header__theme-menu {
