@@ -4,7 +4,7 @@
   padding: 0 10px 10px 10px;
   background: var(--text-color);
   background-image: var(--bg-image);
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'IBM Plex mono', monospace;
@@ -29,8 +29,8 @@
   position: absolute;
   top: 10px;
   right: 0;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--decorated-color);
+  border-right: 1px solid var(--decorated-color);
 }
 
 .decorated-zone::before {
@@ -40,8 +40,8 @@
   position: absolute;
   bottom: 10px;
   left: 0;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--decorated-color);
+  border-left: 1px solid var(--decorated-color);
 }
 
 .header__decorated {
@@ -61,6 +61,10 @@
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+.visible-decorated {
+  display: var(--visible-decorated);
 }
 
 .header-subtitle {
@@ -97,28 +101,6 @@
   display: flex;
   align-items: center;
   position: relative;
-}
-
-.footer::after {
-  content: '';
-  inline-size: 25px;
-  block-size: 25px;
-  position: absolute;
-  top: 10px;
-  right: 0;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
-}
-
-.footer::before {
-  content: '';
-  inline-size: 25px;
-  block-size: 25px;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
 }
 
 .footer-title {

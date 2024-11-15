@@ -1,9 +1,13 @@
 .page.theme-light {
     --text-color: rgb(53, 52, 48);
-    --main-color: rgba(53, 52, 48);
+    --main-color: var(--text-color);
     --accent-color: rgba(255, 141, 203);
+    --btn-color: var(--text-color);
+    --decorated-color: var(--text-color);
+    --acrticle-title-color: var(--text-color);
     --color-transparent: rgba(53, 52, 48, 0.4);
     --title-color: rgba(255, 194, 230);
+    --visible-decorated: none;
 
     --bg-image: url(../images/cover-image-light.png);
 }
@@ -13,8 +17,12 @@
         --text-color: rgb(53, 52, 48);
         --main-color: rgba(53, 52, 48);
         --accent-color: rgba(255, 141, 203);
+        --btn-color: var(--text-color);
+        --decorated-color: var(--text-color);
+        --acrticle-title-color: var(--text-color);
         --color-transparent: rgba(53, 52, 48, 0.4);
         --title-color: rgba(255, 194, 230);
+        --visible-decorated: none;
 
         --bg-image: url(../images/cover-image-light.png);
     }
@@ -23,6 +31,8 @@
 .theme-light .header__theme-menu-button {
     color: var(--text-color);
 }
+
+
 
 
 
