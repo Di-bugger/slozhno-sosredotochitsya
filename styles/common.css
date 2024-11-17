@@ -51,7 +51,7 @@
 .article-title {
     color: var(--acrticle-title-color);
     background: transparent;
-    margin-block-end: 20px;
+    margin-block-end: 18px;
 }
 
 .article__item-title {
