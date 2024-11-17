@@ -11,6 +11,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 133%;
+    color: var(--text-color);
     text-align: left;
     background-color: var(--accent-color);
 }
@@ -69,7 +70,7 @@
 }
 
 .article__items-wrapper .article__item:not(:last-child) {
-    margin-block-end: 18px;
+    margin-block-end: 19px;
 }
 
 .gallery__img {
