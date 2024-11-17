@@ -1,18 +1,19 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  padding: 0 10px 10px 10px;
-  background: var(--text-color);
+  padding: 0 10px;
+  background: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'IBM Plex mono', monospace;
 }
 
 .header {
-  min-height: 100vh;
-  max-height: 660px;
+  min-height: 668px;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   margin-block-end: 40px;
@@ -81,7 +82,7 @@
 }
 
 .header__theme-menu-item:not(:last-child) {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .article__item-title__extra {
@@ -106,6 +107,47 @@
 .footer-title {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
+
+@media (min-width: 768px) {
+  .page {
+    padding: 0 20px;
+  }
+
+  .decorated-zone::after {
+    top: 20px;
+  }
+
+  .decorated-zone::before {
+    bottom: 20px;
+  }
+
+  .header {
+    min-height: 768px;
+    margin-block-end: 60px;
+  }
+
+  .header-title {
+    margin-left: -20px;
+  }
+
+  .main-title {
+    font-size: 120px;
+  }
+
+  .header-subtitle {
+    max-width: 50%;
+    justify-self: end;
+  }
+
+  .article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+
+}
+
+
 
 
 
