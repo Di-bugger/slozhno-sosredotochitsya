@@ -73,6 +73,7 @@
   white-space: pre-line;
   font-family: 'IBM Plex mono', monospace;
   color: var(--text-color);
+  margin-block-end: 10px;
 }
 
 .header__theme-menu {
@@ -82,7 +83,7 @@
 }
 
 .header__theme-menu-item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .article__item-title__extra {
@@ -90,7 +91,7 @@
 }
 
 .gallery {
-  margin-block-end: 40px;
+  margin-block-end: 35px;
 }
 
 .gallery-title {
@@ -143,6 +144,7 @@
   .header-subtitle {
     max-width: 50%;
     justify-self: end;
+    margin-block-end: 20px;
   }
 
   .article {
@@ -234,6 +236,10 @@
 
   .article__attention {
     gap: 0;
+  }
+
+  .article__attention .article__item:not(:last-child) {
+    margin-block-end: 0;
   }
 
   .article__attention .article-title {
