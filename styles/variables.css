@@ -1,10 +1,9 @@
 :root {
-    --text-color: rgb(0, 0, 40);
+    --bg-color: #000028;
+    --text-color: #000028;
     --main-color: rgb(241, 178, 206);
     --accent-color: rgb(255, 0, 112);
-    --btn-color: var(--accent-color);
-    --decorated-color: var(--accent-color);
-    --acrticle-title-color: var(--accent-color);
+    --current-color: rgb(255, 0, 112);
     --color-transparent: rgba(255, 0, 112, 0.4);
     --title-color: rgb(219, 0, 255);
     --visible-decorated: block;
