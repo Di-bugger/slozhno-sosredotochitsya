@@ -154,10 +154,18 @@
     margin-block-end: 80px;
   }
 
+  .article-title {
+    margin-block-end: 0;
+  }
+
   .article__attention {
     display: flex;
     flex-direction: column;
     gap: 0;
+  }
+
+  .article__attention .article-title {
+    margin-block-end: 18px;
   }
 
   .article__attention .article-title {
